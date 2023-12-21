@@ -359,16 +359,16 @@ body main {
     font-size: 0.8rem;
   }
   .ball1 {
-    width: 170px;
+    width: 150px;
   }
   .ball2 {
-    width: 170px;
+    width: 150px;
   }
   .ball3 {
-    width: 170px;
+    width: 150px;
   }
   .sleigh {
-    height: 350px;
+    height: 300px;
   }
 }
 @media (max-width: 868px) {
@@ -386,6 +386,9 @@ body main {
   }
   .sleigh {
     height: 250px;
+  }
+  .container2 {
+    height: 350px;
   }
 }
 @media (max-width: 528px) {
@@ -405,6 +408,12 @@ body main {
     height: 150px;
     width: 250px;
   }
+  .va {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    bottom: -2%;
+  }
 }
 .item1 {
   display: flex;
@@ -416,7 +425,7 @@ body main {
 
 .middle {
   background: hsl(208, 56%, 5%);
-  height: 100%;
+  height: 70%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -424,7 +433,7 @@ body main {
 .middle .container2 {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -459,7 +468,9 @@ body main {
 }
 .middle .container2 .block1 {
   width: 60%;
+  height: 50%;
   display: flex;
+  align-items: center;
 }
 .middle .container2 .block1 p {
   font-size: 1.5rem;
@@ -469,10 +480,12 @@ body main {
 }
 .middle .container2 .block2 {
   width: 60%;
+  height: 50%;
   display: flex;
+  align-items: center;
 }
 .middle .container2 .block2 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   font-family: "Architects Daughter", cursive;
   font-family: "Ubuntu", sans-serif;
@@ -480,38 +493,18 @@ body main {
 
 .lower {
   background: hsl(211, 51%, 8%);
-  margin-top: -150px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 100%;
-  height: 273vh;
-}
-.lower .list {
-  padding-top: 50px;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
-}
-.lower .maincard {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.lower .maincard .card {
-  width: 450px;
-  border-radius: 2rem;
 }
 .lower .textup {
   text-align: center;
   color: white;
-  width: 27%;
+  width: 30%;
   margin: 0 25%;
   position: relative;
 }
-.lower .textup img {
+.lower .textup .va {
   position: absolute;
-  width: 100%;
+  width: 160px;
   left: 100%;
   bottom: -2%;
 }
@@ -532,12 +525,29 @@ body main {
 .lower .textup button:hover {
   padding: 25px 60px;
 }
+.lower .list {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+.lower .maincard {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.lower .maincard .card {
+  width: 450px;
+  border-radius: 2rem;
+}
 .lower .middle1 {
   padding-top: 50px;
   margin: 0 auto;
   width: 90%;
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
   justify-content: center;
 }
@@ -549,7 +559,7 @@ body main {
   text-align: center;
 }
 .lower .card img {
-  width: 40%;
+  width: 200px;
   border-radius: 50%;
   margin-bottom: 15px;
 }
@@ -682,7 +692,7 @@ footer img:hover {
     top: 100%;
   }
   100% {
-    top: 42%;
+    top: 45%;
   }
 }
 .moon:hover {
