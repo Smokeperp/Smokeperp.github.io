@@ -203,7 +203,6 @@ body{
                 top: 195px;
             }
             .tree{
-                height: 40%;
                 width: 100%;
                 z-index: 1;
                 position: absolute;
@@ -289,7 +288,78 @@ body{
     }
 }
 
+@media (max-width: 3000px){
+    html{
+        font-size: 0.8rem;
+    }
+    .ball1{
+        width: 150px;
+    }
+    .ball2{
+        width: 150px;
 
+    }
+    .ball3{
+        width: 150px;
+
+    }
+    .sleigh{
+        height: 300px;
+    }
+    .tree{
+        height: 305px;
+
+    }
+}
+@media (max-width: 2560px){
+    html{
+        font-size: 0.8rem;
+    }
+    .ball1{
+        width: 150px;
+    }
+    .ball2{
+        width: 150px;
+
+    }
+    .ball3{
+        width: 150px;
+
+    }
+    .sleigh{
+        height: 300px;
+    }
+    .tree{
+        height: 565px;
+
+    }
+}
+
+
+
+@media (max-width: 1440px){
+    html{
+        font-size: 0.8rem;
+    }
+    .ball1{
+        width: 150px;
+    }
+    .ball2{
+        width: 150px;
+
+    }
+    .ball3{
+        width: 150px;
+
+    }
+    .sleigh{
+        height: 300px;
+    }
+    .tree{
+        height: 265px;
+
+    }
+}
 @media (max-width: 1148px){
     html{
         font-size: 0.8rem;
@@ -307,6 +377,33 @@ body{
     }
     .sleigh{
         height: 300px;
+    }
+    .tree{
+        height: 565px;
+
+    }
+}
+@media (max-width: 1024px){
+    html{
+        font-size: 0.8rem;
+    }
+    .ball1{
+        width: 150px;
+    }
+    .ball2{
+        width: 150px;
+
+    }
+    .ball3{
+        width: 150px;
+
+    }
+    .sleigh{
+        height: 300px;
+    }
+    .tree{
+        height: 320px;
+
     }
 }
 
@@ -331,7 +428,36 @@ body{
     .container2{
         height: 350px;
     }
-   
+    .tree{
+        height: 355px;
+
+    }
+}
+@media (max-width: 768px){
+    html{
+        font-size: 0.5rem;
+    }
+    .ball1{
+        width: 110px;
+    }
+    .ball2{
+        width: 110px;
+
+    }
+    .ball3{
+        width: 110px;
+
+    }
+    .sleigh{
+        height: 250px;
+    }
+    .container2{
+        height: 350px;
+    }
+    .tree{
+        height: 265px;
+
+    }
 }
 @media (max-width: 528px){
     html{
@@ -358,6 +484,43 @@ body{
         left: 100%;
         bottom: -2%;
     }
+    .tree{
+        height: 250px;
+    }
+    
+    
+    
+}
+@media (max-width: 320px){
+    html{
+        font-size: 0.4rem;
+    }
+    .ball1{
+        width: 80px;
+    }
+    .ball2{
+        width: 80px;
+
+    }
+    .ball3{
+        width: 80px;
+
+    }
+    .sleigh{
+        height: 150px;
+        width: 250px;
+    }
+    .va{
+        position: absolute;
+        width: 100%;
+        left: 100%;
+        bottom: -2%;
+    }
+    .tree{
+        height: 255px;
+    }
+   
+    
     
     
 }
@@ -421,7 +584,7 @@ body{
             display: flex;
             align-items: center;
             p{
-                font-size: 1.5rem;
+                font-size: 1.0rem;
                 text-align: center;
                 font-family: 'Architects Daughter', cursive;
                 font-family: 'Ubuntu', sans-serif;            
@@ -435,7 +598,7 @@ body{
             align-items: center;
 
             p{
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 text-align: center;
                 font-family: 'Architects Daughter', cursive;
                 font-family: 'Ubuntu', sans-serif;            }
