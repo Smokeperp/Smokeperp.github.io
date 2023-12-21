@@ -328,6 +328,9 @@ body{
     .sleigh{
         height: 250px;
     }
+    .container2{
+        height: 350px;
+    }
    
 }
 @media (max-width: 528px){
@@ -349,6 +352,13 @@ body{
         height: 150px;
         width: 250px;
     }
+    .va{
+        position: absolute;
+        width: 100%;
+        left: 100%;
+        bottom: -2%;
+    }
+    
 }
 
 .item1{
@@ -371,7 +381,7 @@ body{
     .container2{
         position: relative;
         width: 100%;
-        height: 100%;
+        height: 60%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -406,7 +416,9 @@ body{
         }
         .block1{
             width: 60%;
+            height: 50%;
             display: flex;
+            align-items: center;
             p{
                 font-size: 1.5rem;
                 text-align: center;
@@ -416,8 +428,10 @@ body{
         }
         .block2{
             width: 60%;
+            height: 50%;
+
             display: flex;
-            
+            align-items: center;
 
             p{
                 font-size: 2rem;
@@ -433,43 +447,23 @@ body{
 
 
 .lower{
-    .list{
-        padding-top: 50px;
-        text-align: center;
-        color: white;
-        font-size: 3rem;
-    }
-    .maincard{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      .card{
-        width: 450px;
-        border-radius: 2rem;
-        
-      }
-    }
     background:hsl(211, 51%, 8%);
-    margin-top: -150px;
-    // background-image: url(./image/fireplace.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
-    height: 273vh;
     .textup{
+        
         text-align: center;
         color: white;
-        width: 27%;
+        width: 30%;
         margin: 0 25%;
         position: relative;
 
-        img{
+        .va{
             position: absolute;
-            width: 100%;
+            width: 160px;
             left: 100%;
             bottom: -2%;
         }
+        
         p{
             font-size: 5rem;
 
@@ -489,18 +483,37 @@ body{
             padding: 25px 60px;
         }
     }
+    .list{
+        padding-top: 50px;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+    }
+    .maincard{
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+      .card{
+        width: 450px;
+        border-radius: 2rem;
+        
+      }
+    }
     .middle1{
         padding-top: 50px;
         margin: 0 auto;
         width: 90%;
+        height: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 10px;
         justify-content: center;
         
       }
       
       .card {
+        
         background-color:  #303841;
         padding: 10px;
         border-radius: 10px;
@@ -508,20 +521,20 @@ body{
         text-align: center;
       
         img {
-          width: 40%;
-          border-radius: 50%;
-          margin-bottom: 15px;
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 15px;
         }
       
         h3 {
-          margin-bottom: 10px;
-          font-size: 1.5rem;
-          color: white;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            color: white;
         }
       
         p {
-          font-size: 1rem;
-          color: white;
+            font-size: 1rem;
+            color: white;
         }
       }
       
