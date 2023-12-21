@@ -295,18 +295,18 @@ body{
         font-size: 0.8rem;
     }
     .ball1{
-        width: 170px;
+        width: 150px;
     }
     .ball2{
-        width: 170px;
+        width: 150px;
 
     }
     .ball3{
-        width: 170px;
+        width: 150px;
 
     }
     .sleigh{
-        height: 350px;
+        height: 300px;
     }
 }
 
@@ -359,6 +359,7 @@ body{
         bottom: -2%;
     }
     
+    
 }
 
 .item1{
@@ -374,7 +375,7 @@ body{
 .middle{
     background:hsl(208, 56%, 5%);
     // background-image: url(./image/white\ snow.png);
-    height: 100%;
+    height: 70%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -434,7 +435,7 @@ body{
             align-items: center;
 
             p{
-                font-size: 2rem;
+                font-size: 1.5rem;
                 text-align: center;
                 font-family: 'Architects Daughter', cursive;
                 font-family: 'Ubuntu', sans-serif;            }
@@ -674,7 +675,7 @@ footer{
         top: 100%;
     }
     100%{
-        top:42%;
+        top:45%;
     }
 }
 
